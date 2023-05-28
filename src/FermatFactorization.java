@@ -33,7 +33,7 @@ public class FermatFactorization implements AM {
 
     if (b2.compareTo(BigInteger.ZERO) == -1) {
       a = a.add(ONE);
-      b2 = (a.multiply(a)).subtract(N);
+      b2 = a.multiply(a).subtract(N);
     }
 
     while (!isSquare(b2)) {
