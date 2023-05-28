@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Result implements Serializable {
-    List<BigInteger> divisors;
+  List<BigInteger> divisors;
 
-    public Result() {
-        divisors = new ArrayList<>();
-    }
+  public Result() {
+    divisors = new ArrayList<>();
+  }
 
-    public List<BigInteger> getList() {
-        return divisors;
-    }
+  public List<BigInteger> getList() {
+    return divisors;
+  }
 
-    public void add(BigInteger bi) {
-        divisors.add(bi);
-    }
+  public void add(BigInteger bi) {
+    divisors.add(bi);
+  }
 }

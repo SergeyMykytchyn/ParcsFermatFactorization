@@ -1,9 +1,8 @@
 import parcs.*;
-
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Main implements AM{
+public class Main implements AM {
   public static void main(String[] args) {
     task curtask = new task();
     curtask.addJarFile("FermatFactorization.jar");

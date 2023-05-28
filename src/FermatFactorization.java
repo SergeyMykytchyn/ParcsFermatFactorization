@@ -1,5 +1,4 @@
 import parcs.*;
-
 import java.math.BigInteger;
 
 public class FermatFactorization implements AM {
